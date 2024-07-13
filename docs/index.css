@@ -2,3 +2,31 @@ h1, h2{
     color: brown;
     align-items: center;
 }
+a{
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.8;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+.menu{
+    display: flex;
+    padding: 14px 16px;
+    justify-content: center;
+}
+.menu ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li{
+    padding: 0 14px;
+}
+.menu ul li a{
+    color: white;
+    text-align: center;
+    
+}
